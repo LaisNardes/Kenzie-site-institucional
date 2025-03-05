@@ -17,7 +17,6 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;	
-
 }
 
 
@@ -27,7 +26,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	overflow: visible;
+		line-height: 1;
 }
 ol, ul {
 	list-style: none;

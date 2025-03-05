@@ -1,10 +1,15 @@
 .header-container__content {
-  background-color: #191c1f;
-  padding: 20px 60px; 
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border-bottom: 2px solid #4c6ef5;
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #191c1f;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #4c6ef5;
+    z-index: 1000;
 }
 
 .header-paragraph {
@@ -101,10 +106,13 @@
   align-items: first baseline;
   justify-content: center;
   padding-top: 40px;
+  
 }
 
 .main-third-box__config {
   height: 30%;
+  position: sticky;
+  top: 8rem;
 
 }
 
@@ -112,7 +120,7 @@
   color: #edf2ff;
   font-weight: 600;
   font-size: 2.3rem;
-  line-height: 2;
+  line-height: 2;  
 }
 
 .main-third-box__message {
@@ -190,6 +198,8 @@
   height: 300px;
   width: 750px;
   padding: 60px;
+  position: sticky;
+  top: 8rem;
 }
 
   
@@ -198,7 +208,7 @@
   font-size: 2.5rem;
   font-weight: 600;
   line-height: 1.5em;  
-  color: #edf2ff;
+  color: #edf2ff;  
 
 }
 

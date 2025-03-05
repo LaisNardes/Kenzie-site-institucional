@@ -1,1 +1,0 @@
-console.log("wendel chato do caralho")
