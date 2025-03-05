@@ -1,0 +1,257 @@
+.header-container__content {
+  background-color: #191c1f;
+  padding: 20px 60px; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid #4c6ef5;
+}
+
+.header-paragraph {
+  color: #f8f9fa;
+  font-weight: 600;
+  font-family: "Inter";
+  font-size: 20px;
+  width: 50%;
+  
+}
+
+.header-button {
+  border: 1px solid #f8f9fa;
+  background-color: #191c1f;
+  color: #f8f9fa;
+  padding: 14px;  
+}
+
+.main-first-box {
+  background-color: #212529;
+  color: #edf2ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  font-family: "Inter";  
+  height: 80vh;  
+  gap: 30px;
+  width: 100%;
+}
+
+.main-first-box__text {
+  font-size: 52px;
+  font-weight: 600;
+}
+
+.main-first-box-colored__text {
+  color: #4c6ef5;
+}
+
+.main-first-box__message {
+  color: #ced4da;
+  text-align: center; 
+  line-height: 1.87rem;
+}
+
+.main-first-box__button {
+  background-color: #4c6ef5;
+  color: #f8f9fa;
+  border: none;
+  padding: 1.25rem;
+  font-weight: 600;
+}
+
+.main-second-box {
+  background-color: #191c1f;
+  padding: 35px 60px;
+  display: flex;
+  justify-content: space-around;  
+  align-items: center;
+  
+}
+
+.main-second-box__text {
+  color: #edf2ff;
+  width: 30%;
+  font-weight: 600;
+  font-family: "Inter";
+  font-size: 2rem;
+}
+
+.main-second-box__message {
+  display: flex;
+  width: 30%;
+  align-items: end;
+  color: #ced4da;
+  font-family: "Inter";
+  font-weight: 400; 
+  line-height: 1.87rem;
+}
+
+
+.main-third-box {
+  display: flex;
+  justify-content: space-around;
+  padding: 35px 60px;
+  font-family: "Inter";
+
+}
+
+.adjust-box-style {
+  display: flex;  
+  width: 30%;
+  align-items: first baseline;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.main-third-box__config {
+  height: 30%;
+
+}
+
+.main-third-box__text {
+  color: #edf2ff;
+  font-weight: 600;
+  font-size: 2.3rem;
+  line-height: 2;
+}
+
+.main-third-box__message {
+  color: #adb5bd;
+  line-height: 25px;
+  background-color: #212529;
+
+}
+
+.main-third-box__button {
+  background-color: #4c6ef5;
+  color: #f8f9fa;
+  border: none;
+  padding: 1.25rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+/* end left */
+
+.right-side-list {
+  width: 30%;
+  text-align: center;
+}
+
+
+.question-box {
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 5;  
+  color: #edf2ff;
+}
+
+.answer-question-box {
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  color: #adb5bd;
+  
+}
+
+.comentaries-section {  
+  display: flex;  
+  flex-direction: row-reverse;
+  background-color: #212529;  
+  padding: 35px 240px;
+}
+
+.comentaries-section ul{ 
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+}
+.test-li {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  width: 60%;
+  padding: 40px 0;
+}
+
+ 
+
+.right-side__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;     
+  font-family: Inter; 
+  background-color: #4c6ef5;
+  height: 300px;
+  width: 750px;
+  padding: 60px;
+}
+
+  
+.right-side-box__question {
+  font-family: Inter;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.5em;  
+  color: #edf2ff;
+
+}
+
+
+.right-side-box__answer {  
+  width: 100%;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.95rem;
+  color: #fff;
+  
+}
+
+  
+.comentaries-tittle-left-side {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  padding: 0 !important;
+}
+ 
+.comentaries-box {
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #edf2ff;
+  line-height: 3.2rem;
+  
+}
+  
+.students {
+  color: #adb5bd;
+  size: 1rem;
+  line-height: 1.5rem;
+  font-family: Inter;  
+}
+
+.students-info {
+  color: #ced4da;  
+  width: 50%;
+  font-size: 1rem;
+  line-height: 1.5rem;  
+  font-weight: 400;
+  font-family: Inter;  
+}
+
+.footer {
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  background-color: #191c1f;
+  color: #edf2ff;
+  padding: 25px;
+}
