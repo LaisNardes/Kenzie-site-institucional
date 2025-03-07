@@ -1,0 +1,67 @@
+dialog {
+    width: 500px;
+    height: 400px;
+    padding: 0;
+    border: 2px solid #4c6ef5;
+}
+
+.stylingModal {
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-family: Inter;
+    background-color: #212529;
+}
+    
+.stylingModal h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #F8F9FA;
+}
+
+.stylingModal p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ADB5BD;
+    line-height: 150%;
+}
+
+.closeModalButton {
+    width: 32px;
+    height: 30px;
+    position: relative;
+    left: 408px;
+    bottom: 152px;
+    border: none;
+    border-radius: 5px;
+    background-color: #343A40;
+    color: #ADB5BD;
+}
+
+.closeModalButton:hover{
+    cursor: pointer;
+    border: 1px solid #F8F9FA ;
+}
+
+#stylingEmail {
+    height: 50px;
+    background-color: #191C1F;
+    font-size: 1rem;
+    border: none;
+}
+
+.waitListButton {
+    padding: 16px;
+    font-weight: 600;
+    background-color: #4C6EF5;
+    color: #F8F9FA;
+}
+
+.waitListButton:hover {
+    cursor: pointer;
+    outline: 1px solid #F8F9FA;
+}

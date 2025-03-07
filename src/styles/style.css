@@ -28,6 +28,11 @@
   padding: 14px;  
 }
 
+.header-button:hover {
+  cursor: pointer;
+  outline: 1px solid #f8f9fa;
+}
+
 .main-first-box {
   background-color: #212529;
   color: #edf2ff;
@@ -63,6 +68,7 @@
   padding: 1.25rem;
   font-weight: 600;
 }
+
 
 .main-second-box {
   background-color: #191c1f;
@@ -137,6 +143,11 @@
   padding: 1.25rem;
   font-weight: 600;
   margin-top: 2rem;
+}
+
+.main-third-box__button:hover {
+  outline: 1px solid #f8f9fa;
+  cursor: pointer;
 }
 
 /* end left */
