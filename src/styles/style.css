@@ -506,7 +506,7 @@
   }
   
   .header-container__content {
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
@@ -627,7 +627,8 @@
     height: 250px;
     width: 420px;
     padding: 16px;
-    align-items: start;
+    align-items: center;
+    margin-left: 30px;
   }
 
   .right-side-box__question {
